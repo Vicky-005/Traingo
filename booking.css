@@ -1,0 +1,78 @@
+body {
+  background: linear-gradient(to top, #ced3c2, #ece8d1);
+}
+
+.booking-container {
+    width: 60%;
+    margin: 120px auto;
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 18px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.12);
+}
+
+.booking-container h2 {
+    color: #1F3D2B;
+    margin-bottom: 18px;
+}
+
+.booking-form {
+    display: grid;
+    gap: 18px;
+}
+
+.form-group label {
+    font-weight: 600;
+    color: #47594A;
+}
+
+.form-group input,
+.form-group select {
+    width: 100%;
+    padding: 10px;
+    border-radius: 8px;
+    border: 2px solid #A5B29D;
+    outline: none;
+}
+
+.confirm-btn {
+    background: #2E5E3A;
+    color: #fff;
+    padding: 12px;
+    border: none;
+    border-radius: 10px;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.confirm-btn:hover {
+    background: #254C2E;
+}
+
+.add-passenger-btn {
+    background: #A5B29D;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    font-size: 15px;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 180px;
+    transition: 0.3s;
+}
+
+.add-passenger-btn:hover {
+    background: #889781;
+}
+
+.passenger {
+    background: #f5f6f0;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.passenger h3 {
+    color: #2E5E3A;
+    margin-bottom: 10px;
+}

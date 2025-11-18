@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Ticket - TrainGo</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="booking.css">
+</head>
+
+<script>
+window.addEventListener("load", () => {
+    document.body.classList.add("page-loaded");
+});
+</script>
+
+
+<body>
+    <header class="nav">
+<div class="logo">
+    <img src="Traingo_final-removebg-preview.png" alt="TrainGo Logo">
+</div>
+
+<nav class="menu">
+    <a href="index.html">Home</a>
+    <a href="#">About</a>
+    <a href="#">Contact</a>
+
+    <a href="login.html" class="login-btn-nav">Login</a>
+
+    <a href="#" class="profile">
+        <img src="ChatGPT Image Nov 17, 2025, 10_17_33 PM.png" alt="Profile">
+    </a>
+</nav>
+
+    </div>
+
+    </header>
+
+    <section class="booking-container">
+        <h2>Passenger Details</h2>
+
+        <form class="booking-form">
+            <div class="form-group">
+                <label>Passenger Name</label>
+                <input type="text" placeholder="Enter full name" required>
+            </div>
+
+            <div class="form-group">
+                <label>Age</label>
+                <input type="number" min="1" placeholder="Age" required>
+            </div>
+
+            <div class="form-group">
+                <label>Gender</label>
+                <select required>
+                    <option>Male</option>
+                    <option>Female</option>
+                    <option>Other</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label>Coach Preference</label>
+                <select>
+                    <option>Sleeper</option>
+                    <option>AC Chair Car</option>
+                    <option>AC 2 Tier</option>
+                    <option>AC 3 Tier</option>
+                </select>
+            </div>
+
+            <button type="button" class="add-passenger-btn" onclick="addPassenger()">
+                 + Add Passenger
+            </button>
+
+            <button type="submit" class="confirm-btn">Proceed to Payment</button>
+        </form>
+    </section>
+
+</body>
+</html>

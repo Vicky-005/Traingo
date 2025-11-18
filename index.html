@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TrainGo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<script>
+window.addEventListener("load", () => {
+    document.body.classList.add("page-loaded");
+});
+</script>
+
+<body>
+
+    <header class="nav">
+<div class="logo">
+    <img src="Traingo_final-removebg-preview.png" alt="TrainGo Logo">
+</div>
+
+<nav class="menu">
+    <a href="index.html">Home</a>
+    <a href="#">About</a>
+    <a href="#">Contact</a>
+
+    <a href="login.html" class="login-btn-nav">Login</a>
+
+    <a href="#" class="profile">
+        <img src="ChatGPT Image Nov 17, 2025, 10_17_33 PM.png" alt="Profile">
+    </a>
+</nav>
+
+    </header>
+
+    <section class="hero">
+        <div class="hero-text">
+            <h1>Welcome to TrainGo</h1>
+            <p>Book your next journey with ease.</p>
+        </div>
+    </section>
+
+    <section class="booking-section">
+        <div class="booking-card">
+            <div class="form-group">
+                <label>From</label>
+                <input type="text" placeholder="Enter city or station">
+            </div>
+            <div class="form-group">
+                <label>To</label>
+                <input type="text" placeholder="Enter destination">
+            </div>
+            <div class="form-group">
+                <label>Date</label>
+                <input type="date">
+            </div>
+            <div class="form-group">
+                <label>Adults</label>
+                <input type="number" min="1" value="1">
+            </div>
+            <div class="form-group">
+                <label>Children</label>
+                <input type="number" min="0" value="0">
+            </div>
+            <button onclick="window.location.href='train-results.html'" class="search-btn">
+             Search Trains</button>
+        </div>
+    </section>
+
+    <footer class="footer">
+    <div class="footer-content">
+        <img src="Traingo_final-removebg-preview.png" class="footer-logo" alt="TrainGo Logo">
+        <p>Book your journey with comfort & ease.</p>
+
+        <div class="footer-links">
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+            <a href="#">Support</a>
+        </div>
+
+        <p class="copyright">© 2025 TrainGo. All rights reserved.</p>
+    </div>
+</footer>
+</body>
+</html>
